@@ -1,0 +1,4 @@
+{
+  "name": "feature-flag-sdk",
+  "packageManager": "yarn@4.9.2"
+}
