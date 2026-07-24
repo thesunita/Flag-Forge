@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+
+    "declaration": true,
+    "declarationMap": true,
+
+    "sourceMap": true,
+
+    "esModuleInterop": true,
+
+    "skipLibCheck": true,
+
+    "resolveJsonModule": true,
+
+    "isolatedModules": true,
+
+    "noImplicitAny": true,
+
+    "forceConsistentCasingInFileNames": true,
+
+    "outDir": "dist"
+  }
+}

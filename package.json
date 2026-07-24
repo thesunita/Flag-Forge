@@ -1,4 +1,20 @@
 {
-  "name": "feature-flag-sdk",
-  "packageManager": "yarn@4.9.2"
+  "name": "flagforge",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "yarn workspaces foreach -At run build",
+    "clean": "yarn workspaces foreach -At run clean",
+    "typecheck": "yarn workspaces foreach -At run typecheck",
+    "lint": "echo Lint",
+    "test": "echo Test"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "tsup": "^8.5.1",
+    "typescript": "5.9.2"
+  }
 }
