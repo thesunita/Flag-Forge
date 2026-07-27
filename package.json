@@ -9,12 +9,16 @@
     "build": "yarn workspaces foreach -At run build",
     "clean": "yarn workspaces foreach -At run clean",
     "typecheck": "yarn workspaces foreach -At run typecheck",
-    "lint": "echo Lint",
+    "lint": "eslint .",
     "test": "echo Test"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@types/node": "^26.1.1",
+    "eslint": "^10.8.0",
+    "globals": "^17.7.0",
     "tsup": "^8.5.1",
-    "typescript": "5.9.2"
+    "typescript": "5.9.2",
+    "typescript-eslint": "^8.65.0"
   }
 }
