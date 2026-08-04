@@ -27,6 +27,12 @@ jobs:
 
       - name: Enable Corepack
         run: corepack enable
+          corepack install
+
+      - name: Verify Tool Versions
+        run: |
+          node -v
+          yarn -v
 
       - name: Install Dependencies
         run: yarn install --immutable
