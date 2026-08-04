@@ -25,7 +25,8 @@ jobs:
           node-version: 22
 
       - name: Enable Corepack
-        run: corepack enable
+        run: |
+          corepack enable
           corepack install
 
       - name: Verify Tool Versions
